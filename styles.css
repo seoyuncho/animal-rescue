@@ -3,7 +3,7 @@ header, footer {
 }
 
 h1 {
-    font-size: 6rem;
+    font-size: 5rem;
     text-align: center;
 }
 
@@ -25,9 +25,23 @@ p, li {
     font-size: 1.3rem;
 }
 
-main img {
-    padding-left: 30px;
-    padding-right: 30px;
+.main-img {
+    position: relative;
+    display: inline-block;
+}
+
+.main-img img {
+    display: block;
+    width: 100%;
+    filter: brightness(30%)
+}
+
+.text-overlay {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white;
 }
 
 .container {
@@ -52,4 +66,13 @@ main img {
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+.link-text {
+    color: blue;
+    text-decoration: none;
+}
+
+.link-text:hover {
+    text-decoration: underline;
 }
