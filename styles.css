@@ -33,7 +33,7 @@ p, li {
     font-size: 1.3rem;
 }
 
-img {
+main img {
     padding: 20px;
 }
 
@@ -63,12 +63,6 @@ img {
     max-width: 1440px;
 }
 
-.activity-row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .activity-column {
     padding: 30px;
 }
@@ -87,4 +81,12 @@ img {
 
 .link-text:hover {
     text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .activity-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
