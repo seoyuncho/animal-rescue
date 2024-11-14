@@ -6,10 +6,6 @@ main img {
     padding: 20px;
 }
 
-p, li {
-    font-size: 1.2rem;
-}
-
 .main-img {
     position: relative;
     display: inline-block;
