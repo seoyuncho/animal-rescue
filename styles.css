@@ -1,10 +1,13 @@
 main {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 40px;
 }
 
 main img {
     padding: 20px;
+}
+
+p, li {
+    font-size: 1.2rem;
 }
 
 .main-img {
@@ -33,10 +36,6 @@ main img {
     max-width: 1440px;
 }
 
-.activity-column {
-    padding: 30px;
-}
-
 .link-text {
     color: blue;
     text-decoration: none;
@@ -44,4 +43,12 @@ main img {
 
 .link-text:hover {
     text-decoration: underline;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 }
