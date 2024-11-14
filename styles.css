@@ -29,6 +29,17 @@ p, li {
     color: white;
 }
 
+.text-overlay h1 {
+    font-size: 6vw;
+    font-weight: bold;
+}
+
+.text-overlay h4 {
+    font-size: 2.5vw;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
 .container {
     margin-top: 0;
     margin-left: auto;
@@ -52,3 +63,4 @@ p, li {
     justify-content: center;
     margin-bottom: 20px;
 }
+
