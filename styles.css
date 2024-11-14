@@ -1,14 +1,9 @@
-main {
-    margin: 40px;
-}
-
-main img {
-    padding: 20px;
+section {
+    margin: 50px;
 }
 
 .main-img {
     position: relative;
-    display: inline-block;
 }
 
 .main-img img {
